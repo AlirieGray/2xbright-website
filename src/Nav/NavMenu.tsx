@@ -7,8 +7,8 @@ function NavMenu() {
     return (
         <div className="navButtons">
             <ul>
-                <li className={location.pathname == '/games' ? 'activeRoute' : ''}>
-                    <Link to="/games">Games</Link>
+                <li className={location.pathname == '/conduit' ? 'activeRoute' : ''}>
+                    <Link to="/conduit">Games</Link>
                 </li>
                 <li className={location.pathname == '/' ? 'activeRoute' : ''}>
                     <Link to="/">About</Link>

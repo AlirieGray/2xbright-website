@@ -9,7 +9,7 @@ function AppRouter() {
                 <Route path='/' element={
                     <MainPage />
                 }/>
-                <Route path='/games' element={
+                <Route path='/conduit' element={
                     <Conduit />
                 }/>
                 <Route path='/contact' element={

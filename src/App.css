@@ -5,7 +5,6 @@
 
 .sideBarContainer {
   position: fixed;
-  top: 0.5;
   left: 0;
   margin-left: 5%;
   margin-top: 100px;
@@ -31,8 +30,6 @@
   font-family: EleganTech, 'Roboto', sans-serif;
 }
 
-
-
 h1 {
   font-size: 20px;
 }
@@ -43,7 +40,6 @@ h1 {
   flex-direction: row;
   justify-content: center;
   align-items: flex-start;
-  width: 1000px;
 }
 
 .contentWrapper {
@@ -51,8 +47,50 @@ h1 {
   padding-left: 30px;
   padding-right: 30px;
   margin-left: 50px;
-  margin-top: 90px;
+  margin-top: 50px;
   width: 800px;
   background-color: var(--secondary-color);
   border-radius: 12px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .sideBarContainer {
+    all: unset;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contentWrapper{
+    width: 80%;
+    max-width: 600px;
+  }
+}
+
+
+@media only screen and (max-width: 500px) {
+  .App-wrapper {
+    width: 100vw;
+  }
+
+  .container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 80%;
+    max-width: 400px;
+    margin: 0;
+  }
+
+  .contentWrapper{
+    /* width: 70%; */
+    max-width: 400px;
+    margin: 0;
+    margin-top: 10px;
+  }
 }

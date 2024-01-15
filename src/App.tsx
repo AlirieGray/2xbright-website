@@ -2,11 +2,11 @@ import React from 'react';
 import './App.css';
 import AppRouter from './AppRouter';
 import NavMenu from './Nav/NavMenu';
-import { BrowserRouter } from 'react-router-dom'
+import { HashRouter } from 'react-router-dom'
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div className='App-wrapper'>
         <div className='container'>
           <div className='sideBarContainer'>
@@ -20,7 +20,7 @@ function App() {
           </div>
         </div>
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
