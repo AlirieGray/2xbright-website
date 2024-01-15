@@ -4,23 +4,24 @@ import AppRouter from './AppRouter';
 import NavMenu from './Nav/NavMenu';
 import { BrowserRouter } from 'react-router-dom'
 
-
 function App() {
   return (
     <BrowserRouter>
-    <div className='App-wrapper'>
-      <div className='container'>
-        <header>
-          <h1>
-            Twice as Bright Games
-          </h1>
-          <NavMenu />
-        </header>
-        <div className='contentWrapper'>
-          <AppRouter />
+      <div className='App-wrapper'>
+        <div className='container'>
+          <div className='sideBarContainer'>
+            <header>
+              <h1>
+                Twice as Bright Games
+              </h1>
+              <NavMenu />
+            </header>
+          </div>
+          <div className='contentWrapper'>
+            <AppRouter />
+          </div>
         </div>
       </div>
-    </div>
     </BrowserRouter>
   );
 }

@@ -4,6 +4,14 @@ ul {
     margin: 0;
     padding: 0;
   }
+
+li {
+  color: #bbbbbb;
+} 
+
+.activeRoute {
+  color: white;
+}
   
   li:hover {
     color: pink;

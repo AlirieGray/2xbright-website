@@ -3,6 +3,13 @@
   src: local('EleganTech'), url(./fonts/elegantech/EleganTech.ttf) format('truetype');
 }
 
+.sideBarContainer {
+  position: fixed;
+  top: 0.5;
+  left: 0;
+  margin-left: 120px;
+}
+
 .App {
   text-align: center;
 }
@@ -31,7 +38,7 @@ h1 {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   width: 1000px;
 }
 
