@@ -1,3 +1,4 @@
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -8,3 +9,7 @@ ul {
     color: pink;
     cursor: pointer;
   }
+
+a {
+  all: unset;
+}

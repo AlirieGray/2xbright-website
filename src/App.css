@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'EleganTech';
+  src: local('EleganTech'), url(./fonts/elegantech/EleganTech.ttf) format('truetype');
+}
+
 .App {
   text-align: center;
 }
@@ -12,7 +17,10 @@
   font-size: calc(10px + 2vmin);
   color: white;
   padding-top: 20px;
+  font-family: EleganTech, 'Roboto', sans-serif;
 }
+
+
 
 h1 {
   font-size: 20px;
