@@ -17,3 +17,13 @@
 .section{
     margin-bottom: 50px;
 }
+
+.contributorName {
+    color: var(--accent-color);
+}
+
+.contributorTitle {
+    font-size: 18px;
+    color: var(--highlight-color);
+    margin-bottom: 15px;;
+}

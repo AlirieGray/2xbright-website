@@ -1,5 +1,10 @@
 import React from 'react';
 import Contributor from './Contributor';
+import battle from '../images/battle.png';
+import camp from '../images/camp.png';
+import village from '../images/village_screenie.png';
+import mountaintop from '../images/mountain_screenie.png';
+import yeni from '../images/yeni.png';
 
 const contributors = [
   {
@@ -26,22 +31,38 @@ function Conduit() {
   return (
     <div className='conduitWrapper'>
         <div className='conduitHeader'>
-          Conduit of the Miracle: Part One - Prologue
-          Coming Soon 2024
+          Conduit of the Miracle
+          <p>Part One - Prologue</p>
+          <p>Coming Soon 2024</p>
         </div>
         <div className='section'>
           <div className='summary'>
-            A visual novel that follows the journey of a young widowed mother as she tries to find answers about the past.
+            <p>Yeni is a young widow, left to care for her infant daughter alone. </p>
+
+            <p>Will you unlock the secrets of the past?</p>
+            
+            <p>A visual novel that sets the stage for an epic adventure to come...</p>
           </div>
         </div>
-      <div className='section'>
-        <div className='sectionHeader'>Contributors</div>
-        {contributors.map((contributor) => {
-          return (
-            <Contributor name={contributor.name} title={contributor.title} bio={contributor.bio}/>
-          )
-        })}
-      </div>
+
+        <div className='section'>
+          <div>
+            <img src={village} width={810} height={455}/>
+            <img src={mountaintop} width={810} height={455}/>
+            <img src={battle} width={810} height={455}/>
+            <img src={camp} width={810} height={455}/>
+            {/* <img src={yeni} width={642} height={885} /> */}
+          </div>
+        </div>
+
+        <div className='section'>
+          <div className='sectionHeader'>Contributors</div>
+          {contributors.map((contributor) => {
+            return (
+              <Contributor name={contributor.name} title={contributor.title} bio={contributor.bio}/>
+            )
+          })}
+        </div>
     </div>
   );
 }

@@ -6,18 +6,27 @@ ul {
   }
 
 li {
-  color: #bbbbbb;
+  color: white;
 } 
 
 .activeRoute {
-  color: white;
+  color: var(--accent-color);
 }
   
   li:hover {
-    color: pink;
+    color: var(--highlight-color);
     cursor: pointer;
   }
 
 a {
   all: unset;
+}
+
+.navButtons {
+  font-size: 18px;
+  background-color: var(--secondary-color);
+  width: 50%;
+  text-align: center;
+  padding: 15px;
+  border-radius: 12px;
 }

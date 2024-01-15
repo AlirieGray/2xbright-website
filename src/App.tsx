@@ -10,12 +10,10 @@ function App() {
       <div className='App-wrapper'>
         <div className='container'>
           <div className='sideBarContainer'>
-            <header>
               <h1>
                 Twice as Bright Games
               </h1>
               <NavMenu />
-            </header>
           </div>
           <div className='contentWrapper'>
             <AppRouter />
