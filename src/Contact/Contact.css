@@ -1,0 +1,7 @@
+a.contact{
+    font-weight: bold !important;
+    text-decoration: underline;
+}
+a.contact:hover {
+    cursor: pointer;
+}
