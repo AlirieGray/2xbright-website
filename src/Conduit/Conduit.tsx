@@ -37,9 +37,9 @@ function Conduit() {
         </div>
         <div className='section'>
           <div className='summary'>
-            <p>Yeni is a young widow, left to care for her infant daughter alone. </p>
+            <p>Yeni is a young widow, left to care for her infant daughter alone, when she's suddenly tasked with protecting and transporting a mysterious relic. To carry out her late husband's final wishes, Yeni must return to the village of her birth and reunite with her estranged mother, who may know more about the strange artifact than she lets on.</p>
 
-            <p>Will you unlock the secrets of the past?</p>
+            <p>Will you unlock the secrets of the past? How will your actions shape the course of the future?</p>
             
             <p>A visual novel that sets the stage for an epic adventure to come...</p>
           </div>
