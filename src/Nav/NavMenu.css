@@ -31,7 +31,7 @@ a {
   border-radius: 12px;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1500px) {
   ul {
       display: flex;
       flex-direction: row;

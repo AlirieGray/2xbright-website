@@ -22,7 +22,7 @@ const contributors = [
     title: 'Character Artist',
   },
   {
-    name: 'wscsthespirit',
+    name: 'wscsthespirit and Flux Psyche',
     title: 'Composer, Mountaintop Theme'
   }
 ] 
@@ -32,8 +32,8 @@ function Conduit() {
     <div className='conduitWrapper'>
         <div className='conduitHeader'>
           Conduit of the Miracle
-          <p>Part One - Prologue</p>
-          <p>Coming Soon 2024</p>
+          <p className="subtitle">Part One - Prologue</p>
+          <p className="subtitle">Coming Soon 2024</p>
         </div>
         <div className='section'>
           <div className='summary'>
@@ -46,7 +46,7 @@ function Conduit() {
         </div>
 
         <div className='section'>
-          <div>
+          <div className="imgContainer">
             <img src={village} width={810} height={455}/>
             <img src={mountaintop} width={810} height={455}/>
             <img src={battle} width={810} height={455}/>
