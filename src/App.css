@@ -23,6 +23,7 @@
   flex-direction: row;
   align-items: flex-end;
   justify-content: flex-start;
+  margin-left: 35px;
 }
 
 .company {
@@ -33,8 +34,8 @@
 
 
 .sideBarContainer {
-  margin-left: 5%;
-  margin-top: 100px;
+  margin-top: 50px;
+  margin-left: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -50,7 +51,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
   padding-top: 20px;
@@ -79,6 +79,8 @@ h1 {
   /* width: 800px; */
   background-color: var(--secondary-color);
   border-radius: 12px;
+  display: flex;
+  flex-direction: column;
 }
 
 /* @media only screen and (max-width: 1500px) {

@@ -54,7 +54,7 @@ function Conduit() {
   return (
     <div className='conduitWrapper'>
         <div className='conduitHeader'>
-          <div className='sectionHeader'>Conduit of the Miracle</div>
+          <div className='sectionHeader' id="conduit">Conduit of the Miracle</div>
           <p className="subtitle">Part One - Prologue</p>
           <p className="subtitle">Coming Soon 2024</p>
         </div>

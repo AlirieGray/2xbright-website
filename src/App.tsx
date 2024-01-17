@@ -3,11 +3,14 @@ import './App.css';
 import AppRouter from './AppRouter';
 import NavMenu from './Nav/NavMenu';
 import { HashRouter } from 'react-router-dom'
-import candle from './images/candle.png'
+import candle from './images/candle_square_small.png'
+import MainPage from './MainPage/MainPage';
+import Conduit from './Conduit/Conduit';
+import Contact from './Contact/Contact';
 
 function App() {
   return (
-    <HashRouter>
+    // <HashRouter>
       <div className='App-wrapper'>
         <div className='appHeader'>
           <div className='logoContainer'>
@@ -16,15 +19,18 @@ function App() {
           </div>
         </div>
         <div className='container'>
+          <div className='contentWrapper'>
+            {/* <AppRouter /> */}
+            <MainPage />
+            <Conduit />
+            <Contact />
+          </div>
           <div className='sideBarContainer'>
               <NavMenu />
           </div>
-          <div className='contentWrapper'>
-            <AppRouter />
-          </div>
         </div>
       </div>
-    </HashRouter>
+    /* </HashRouter> */
   );
 }
 

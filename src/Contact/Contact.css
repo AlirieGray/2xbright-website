@@ -5,3 +5,9 @@ a.contact{
 a.contact:hover {
     cursor: pointer;
 }
+
+.sectionHeader {
+    font-size: 36px;
+    text-align: center;
+    font-family: LondonMM, Verdana, Geneva, Tahoma, sans-serif;
+}

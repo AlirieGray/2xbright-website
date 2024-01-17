@@ -7,6 +7,7 @@ ul {
 
 li {
   color: white;
+  margin-bottom: 10px;
 } 
 
 .activeRoute {
@@ -20,18 +21,24 @@ li:hover {
 
 a {
   all: unset;
+  font-size: 22px;
 }
 
 .navButtons {
   font-size: 18px;
-  background-color: var(--secondary-color);
+  /* background-color: var(--secondary-color); */
   width: 50%;
   text-align: center;
+  margin-top: 10px;
   padding: 15px;
-  border-radius: 12px;
+  /* border-radius: 12px; */
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  border-left: 1px solid white;
 }
-
-@media only screen and (max-width: 1500px) {
+/* TODO: switch to hamburger menu at 1000px */
+/* @media only screen and (max-width: 1500px) {
   ul {
       display: flex;
       flex-direction: row;
@@ -44,4 +51,4 @@ a {
       padding-top: 10px;
       padding-bottom: 10px;
     }
-}
+} */

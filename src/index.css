@@ -16,6 +16,7 @@ html {
   --secondary-color: #2E2640;
   --accent-color: #B84A62;
   --highlight-color: #AC7B84;
+  scroll-behavior: smooth;
 }
  
 code {
