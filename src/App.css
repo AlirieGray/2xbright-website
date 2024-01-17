@@ -3,9 +3,36 @@
   src: local('EleganTech'), url(./fonts/elegantech/EleganTech.ttf) format('truetype');
 }
 
+@font-face {
+  font-family: 'LondonMM';
+  src: local('LondonMM'), url(./fonts/london_between/LondonMM.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'SoftLine';
+  src: local('SoftLine'), url(./fonts/softline/SoftLine.otf) format('opentype');
+}
+
+.appHeader {
+  text-align: left;
+  width: 80%;
+}
+
+.logoContainer{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+
+.company {
+  font-family: LondonMM, Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 42px;
+  margin-bottom: 0px;
+}
+
+
 .sideBarContainer {
-  position: fixed;
-  left: 0;
   margin-left: 5%;
   margin-top: 100px;
   display: flex;
@@ -23,11 +50,11 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
   padding-top: 20px;
-  font-family: EleganTech, 'Roboto', sans-serif;
+  font-family: SoftLine, 'Roboto', sans-serif;
 }
 
 h1 {
@@ -36,14 +63,10 @@ h1 {
 
 
 .container {
-  /* display: flex; */
-  /* flex: 1 1 auto; */
-  /* flex-direction: row; */
-  /* justify-content: flex-end;
-  align-items: flex-start; */
+  display: flex;
+  flex-direction: row;
   margin-bottom: 50px;
-  width: 70%;
-  max-width: 1000px;
+  width: 80%;
 }
 
 .contentWrapper {
@@ -53,12 +76,12 @@ h1 {
   padding-right: 30px;
   margin-left: 50px;
   margin-top: 50px;
-  width: 800px;
+  /* width: 800px; */
   background-color: var(--secondary-color);
   border-radius: 12px;
 }
 
-@media only screen and (max-width: 1500px) {
+/* @media only screen and (max-width: 1500px) {
   .container {
     display: flex;
     flex-direction: column;
@@ -90,14 +113,14 @@ h1 {
     flex-direction: column;
     align-items: center;
     width: 80% !important;
-    /* max-width: 900px; */
+    /* max-width: 900px; 
   }
 
   .contentWrapper{
     width: 80%;
-    /* max-width: 800px; */
+    /* max-width: 800px; 
   }
-}
+} */
 
 
 @media only screen and (max-width: 500px) {

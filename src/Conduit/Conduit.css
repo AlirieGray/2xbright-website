@@ -6,6 +6,11 @@
 .sectionHeader {
     font-size: 36px;
     text-align: center;
+    font-family: LondonMM, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p {
+    font-size: 20px;
 }
 
 .imgContainer {
@@ -16,46 +21,45 @@
     justify-content: space-between;
 }
 
-img {
+.screenie {
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
 .conduitHeader {
     text-align: center;
-    
 }
 
 @media only screen and (max-width: 1500px) {
-    img {
+    .screenie {
         width: 810px;
         height: 455px;
     }
 }
 
 @media only screen and (max-width: 1100px) {
-    img {
+    .screenie {
         width: 572px;
         height: 322px;
     }
 }
 
 @media only screen and (max-width: 930px) {
-    img {
+    .screenie {
         width: 362px;
         height: 204px;
     }
 }
 
 @media only screen and (max-width: 600px) {
-    img {
+    .screenie {
         width: 286px;
         height: 161px;
     }
 }
 
 @media only screen and (max-width: 500px) {
-    img {
+    .screenie {
         width: 222px;
         height: 125px;
     }

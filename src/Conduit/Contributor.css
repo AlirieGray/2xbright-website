@@ -1,13 +1,18 @@
 
 
-
+.contributorContent {
+    margin-bottom: 20px;
+    /* height: 200px; */
+    width: 90%;
+}
 
 .contributorHeader {
     
 }
 
 .contributorBio{
-    font-size: 16px;
+    font-size: 20px;
+    margin-top: 20px;
 }
 
 .summary {
@@ -22,8 +27,13 @@
     color: var(--accent-color);
 }
 
-.contributorTitle {
+.contributorDetails {
     font-size: 18px;
     color: var(--highlight-color);
-    margin-bottom: 15px;;
+}
+
+.portrait {
+    float: left;
+    max-width: 200px;
+    margin-right: 20px;
 }

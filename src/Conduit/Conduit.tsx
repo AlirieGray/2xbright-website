@@ -4,26 +4,49 @@ import battle from '../images/battle.png';
 import camp from '../images/camp.png';
 import village from '../images/village_screenie.png';
 import mountaintop from '../images/mountain_screenie.png';
+import seijiPortrait from '../images/seiji_portrait.jpg';
+import alPortrait from '../images/al_portrait.jpg';
+import amarPortrait from '../images/amar_portrait.jpg'
 import yeni from '../images/yeni.png';
+import './Conduit.css';
 
 const contributors = [
   {
     name: 'Alirie Gray',
+    pronouns: 'she/he',
     title: 'Creative Director, Writer, Programmer',
-    bio: 'Alirie is a writer and software engineer from Los Angeles. Conduit of the Miracle is her first video game.'
+    imgSrc: alPortrait,
+    bio: `Alirie is a writer and software engineer from Los Angeles. 
+    As an avid fantasy reader and RPG player, she is drawn to the power of fantasy and science fiction as a shared place to grapple with complex topics and expand our vision of what's possible for a better future. 
+    Conduit of the Miracle is her first video game and creative baby, and she looks forward to developing and releasing Part Two which will expand on the characters and world introduced in Part One.`
+  },
+  {
+    name: 'Seiji Igei',
+    pronouns: 'they/he',
+    title: 'Character Designer',
+    imgSrc: seijiPortrait,
+    bio: `Seiji Igei is a 2D digital artist and motion editor in Chicago (Land of the Council of the Three Fires: The Odawa, Ojibwe and Potawatomi Nations).  
+    In 2018, they graduated from DePaul University in Chicago with a BFA in Animation.  They enjoy creating fun, nostalgic art that remixes American and 
+    Asian pop culture!  He focuses on creating engaging and educational work that informs and inspires others.  Seiji has volunteered with student/local 
+    organizing and graphic design commissions for nonprofits in Chicago and Los Angeles since 2015.  With this experience, they hope to create and support 
+    stories that envision a more just and caring world.`
   },
   {
     name: 'Emilia Nisula',
     title: 'Background Artist',
+    pronouns: 'she/her',
     bio: 'Emilia painted all of the backgrounds for Conduit of the Miracle: Part One. You can find her on Instagram at @mmepu'
-  },
-  {
-    name: 'Seiji',
-    title: 'Character Artist',
   },
   {
     name: 'wscsthespirit and Flux Psyche',
     title: 'Composer, Mountaintop Theme'
+  },
+  {
+    name: 'Amar Mezher',
+    pronouns: 'they/he',
+    title: 'Graphic Designer, Twice as Bright Games logo',
+    imgSrc: amarPortrait,
+    bio: 'Amar Mezher is a digital (and sometimes traditional) artist in Southern California. They enjoy reading sci-fi and fantasy books, as well as gaming and listening to lots of different genres of music.'
   }
 ] 
 
@@ -31,7 +54,7 @@ function Conduit() {
   return (
     <div className='conduitWrapper'>
         <div className='conduitHeader'>
-          Conduit of the Miracle
+          <div className='sectionHeader'>Conduit of the Miracle</div>
           <p className="subtitle">Part One - Prologue</p>
           <p className="subtitle">Coming Soon 2024</p>
         </div>
@@ -47,10 +70,10 @@ function Conduit() {
 
         <div className='section'>
           <div className="imgContainer">
-            <img src={village} width={810} height={455}/>
-            <img src={mountaintop} width={810} height={455}/>
-            <img src={battle} width={810} height={455}/>
-            <img src={camp} width={810} height={455}/>
+            <img className='screenie' src={village} width={810} height={455}/>
+            <img className='screenie' src={mountaintop} width={810} height={455}/>
+            <img className='screenie' src={battle} width={810} height={455}/>
+            <img className='screenie' src={camp} width={810} height={455}/>
             {/* <img src={yeni} width={642} height={885} /> */}
           </div>
         </div>
@@ -59,7 +82,7 @@ function Conduit() {
           <div className='sectionHeader'>Contributors</div>
           {contributors.map((contributor) => {
             return (
-              <Contributor name={contributor.name} title={contributor.title} bio={contributor.bio}/>
+              <Contributor name={contributor.name} title={contributor.title} bio={contributor.bio} imgSrc={contributor.imgSrc} pronouns={contributor.pronouns}/>
             )
           })}
         </div>
