@@ -7,7 +7,10 @@ ul {
 
 li {
   color: white;
-  margin-bottom: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 100px;
+  padding-left: 10px;
 } 
 
 .activeRoute {
@@ -15,8 +18,9 @@ li {
 }
   
 li:hover {
-  color: var(--highlight-color);
+  color: var(--secondary-color);
   cursor: pointer;
+  background-color: var(--accent-color);
 }
 
 a {
@@ -28,9 +32,11 @@ a {
   font-size: 18px;
   /* background-color: var(--secondary-color); */
   width: 50%;
-  text-align: center;
+  text-align: left;
   margin-top: 10px;
-  padding: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  /* padding: 15px; */
   /* border-radius: 12px; */
   position: sticky;
   position: -webkit-sticky;

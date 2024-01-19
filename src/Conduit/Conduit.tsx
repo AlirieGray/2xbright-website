@@ -16,7 +16,7 @@ const contributors = [
     pronouns: 'she/he',
     title: 'Creative Director, Writer, Programmer',
     imgSrc: alPortrait,
-    bio: `Alirie is a writer and software engineer from Los Angeles. 
+    bio: `Alirie Gray is a writer and software engineer from Los Angeles. 
     As an avid fantasy reader and RPG player, she is drawn to the power of fantasy and science fiction as a shared place to grapple with complex topics and expand our vision of what's possible for a better future. 
     Conduit of the Miracle is her first video game and creative baby, and she looks forward to developing and releasing Part Two which will expand on the characters and world introduced in Part One.`
   },
