@@ -88,11 +88,11 @@ h1 {
   }
 
   .company {
-    font-size: 22px !important;
+    font-size: 20px !important;
   }
 
   .candle {
-    width: 50px;
+    width: 45px;
   }
 
   .appHeader {
@@ -100,13 +100,16 @@ h1 {
     top: 0;
     background-color: var(--primary-color);
     padding-bottom: 15px;
-  }
-
-  .appHeader {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: flex-end;
+    width: 100%;
+  }
+
+
+  .logoContainer {
+    margin-left: 0px !important;
   }
 } 
 
@@ -114,11 +117,25 @@ h1 {
   .hamburger {
     display: none;
   }
-
 } 
 
-
 @media only screen and (max-width: 500px) {
+  .company {
+    display: none;
+  }
+
+  .appHeader {
+    justify-content: space-between !important;
+  }
+
+  .candle {
+    padding-left: 40px;
+  }
+
+}
+
+
+@media only screen and (max-width: 670px) {
   .App-wrapper {
     width: 100vw;
   }
@@ -128,7 +145,7 @@ h1 {
     align-items: center;
     justify-content: space-around;
     width: 80%;
-    max-width: 400px;
+    /* max-width: 400px; */
     margin: 0;
   }
 
@@ -147,7 +164,7 @@ h1 {
   width: 36px;
   height: 30px;
   right: 12%;
-  top: 30px;
+  top: 20px;
 }
 
 /* Color/shape of burger icon bars */

@@ -1,23 +1,19 @@
 
 
 .contributorContent {
+    margin-top: 15px;
     margin-bottom: 20px;
-    /* height: 200px; */
     width: 90%;
 }
 
 .contributorHeader {
-    
 }
 
 .contributorBio{
-    font-size: 20px;
-    margin-top: 20px;
+    font-size: 20px !important;
+    margin-top: 20px !important;
 }
 
-.summary {
-    font-size: 16px;
-}
 
 .section{
     margin-bottom: 50px;
@@ -25,10 +21,11 @@
 
 .contributorName {
     color: var(--accent-color);
+    font-size: 26px;
 }
 
 .contributorDetails {
-    font-size: 18px;
+    font-size: 18px !important;
     color: var(--highlight-color);
 }
 
@@ -36,4 +33,5 @@
     float: left;
     max-width: 200px;
     margin-right: 20px;
+    margin-bottom: 10px;
 }
