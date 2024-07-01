@@ -12,10 +12,10 @@ html {
   'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
   sans-serif;
 
-  --primary-color: #D96B38;
-  --secondary-color: #202C59;
-  --accent-color: #F18805;
-  --highlight-color: #F0A202;
+  --primary-color: #32746D;
+  --secondary-color: #104F55;
+  --accent-color: #9EC5AB;
+  --highlight-color: #9EC5AB;
   scroll-behavior: smooth;
 }
  

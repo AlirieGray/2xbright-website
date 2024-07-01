@@ -18,8 +18,8 @@ function App() {
           </div>
           <div className='hamburger'>
               <Menu right>
-                <a id='menuAbout' className='menu-item' href='#about'> About </a>
-                <a id='menuGames' className='menu-item' href='#conduit'> Games </a>
+                <a id='menuAbout' className='menu-item' href='#about'> Games </a>
+                <a id='menuGames' className='menu-item' href='#contributors'> About Us </a>
                 <a id='menuContact' className='menu-item' href='#contact'> Contact </a>
               </Menu>
             </div>

@@ -221,11 +221,11 @@ Note: Beware of modifying this element as it can break the animations - you shou
 }
 
 .bm-item:hover {
-  background-color: var(--secondary-color);
+  background-color: var(--accent-color);
 }
 
 .menu-item:hover {
-  color: var(--accent-color);
+  color: var(--secondary-color);
 }
 
 /* Styling of overlay */

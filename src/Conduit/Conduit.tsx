@@ -6,7 +6,6 @@ import village from '../images/village_screenie.png';
 import mountaintop from '../images/mountain_screenie.png';
 import seijiPortrait from '../images/seiji_portrait.jpg';
 import alPortrait from '../images/al_portrait.jpg';
-import amarPortrait from '../images/amar_portrait.jpg'
 import yeni from '../images/yeni.png';
 import './Conduit.css';
 
@@ -41,13 +40,6 @@ const contributors = [
     name: 'wscsthespirit and Flux Psyche',
     title: 'Composer, Mountaintop Theme'
   },
-  {
-    name: 'Amar Mezher',
-    pronouns: 'they/he',
-    title: 'Graphic Designer, Twice as Bright Games logo',
-    imgSrc: amarPortrait,
-    bio: 'Amar Mezher is a digital (and sometimes traditional) artist in Southern California. They enjoy reading sci-fi and fantasy books, as well as gaming and listening to lots of different genres of music.'
-  }
 ] 
 
 function Conduit() {
@@ -79,7 +71,7 @@ function Conduit() {
         </div>
 
         <div className='section'>
-          <div className='sectionHeader'>Contributors</div>
+          <div className='sectionHeader' id="contributors">Contributors</div>
           {contributors.map((contributor) => {
             return (
               <Contributor name={contributor.name} title={contributor.title} bio={contributor.bio} imgSrc={contributor.imgSrc} pronouns={contributor.pronouns}/>
